@@ -8,7 +8,9 @@ import state from '../store';
 
 const Shirt = () => {
   const snap = useSnapshot(state);
-  const { nodes, materials } = useGLTF('/shirt_baked.glb');
+  const downloadUrl = new URL('./shirt_baked.glb', import.meta.url);
+console.log(downloadUrl+"/")
+  const { nodes, materials } = useGLTF(downloadUrl+"/");
 
   const logoTexture = useTexture(snap.logoDecal);
   const fullTexture = useTexture(snap.fullDecal);
