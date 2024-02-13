@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shirtconfig/static/css/main.9e2795c8.css",
+    "main.js": "/shirtconfig/static/js/main.a1846090.js",
+    "static/js/592.09fec880.chunk.js": "/shirtconfig/static/js/592.09fec880.chunk.js",
+    "index.html": "/shirtconfig/index.html",
+    "main.9e2795c8.css.map": "/shirtconfig/static/css/main.9e2795c8.css.map",
+    "main.a1846090.js.map": "/shirtconfig/static/js/main.a1846090.js.map",
+    "592.09fec880.chunk.js.map": "/shirtconfig/static/js/592.09fec880.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e2795c8.css",
+    "static/js/main.a1846090.js"
+  ]
+}
